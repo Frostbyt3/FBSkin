@@ -510,13 +510,13 @@
   "UseDefaultPatches": false,
   "Steam-WebKit": "patches/webkit.css",
   "RootColors": "config/colors.css",
-  "name": "Zehn",
-  "author": "yurisuika",
-  "description": "A Steam skin based on Windows 10's Metro/Fluent transitional design language.",
-  "source": "https://github.com/yurisuika/Zehn",
+  "name": "FBSkin",
+  "author": "Frostbyt3",
+  "description": "A Steam skin based on Windows 10's Metro theme with some flair.",
+  "source": "https://github.com/Frostbyt3/FBSkin",
   "github": {
-    "owner": "yurisuika",
-    "repo_name": "Zehn"
+    "owner": "Frostbyt3",
+    "repo_name": "FBSkin"
   },
   "version": "2025.11.25",
   "tags": [
@@ -527,6 +527,6 @@
     "Fluent",
     "Windows 10"
   ],
-  "header_image": "https://raw.githubusercontent.com/yurisuika/Zehn/master/assets/header.png?raw=true",
-  "splash_image": "https://raw.githubusercontent.com/yurisuika/Zehn/master/assets/splash.png?raw=true"
+  "header_image": "https://github.com/Frostbyt3/FBSkin/blob/master/assets/header.png?raw=true",
+  "splash_image": "https://github.com/Frostbyt3/FBSkin/blob/master/assets/splash.png?raw=true"
 }

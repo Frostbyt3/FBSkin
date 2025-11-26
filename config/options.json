@@ -4,8 +4,8 @@
     "auto": false,
     "blend": {
       "color": {
-        "background": false,
-        "foreground": false
+        "background": true,
+        "foreground": true
       },
       "amount": "50%",
       "space": "srgb"

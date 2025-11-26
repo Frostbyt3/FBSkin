@@ -2,11 +2,11 @@
 
 /* BORDER */
 .chat_main_flex {
-  /* border: 1px solid var(--zehn-color-border) !important; */
+  /* border: 1px solid var(--fbskin-color-border) !important; */
 }
 
 .WindowFocus .chat_main_flex {
-  /* border: 1px solid var(--zehn-color-border-focus) !important; */
+  /* border: 1px solid var(--fbskin-color-border-focus) !important; */
 }
 
 .singleWindowFocusBar {
@@ -23,7 +23,7 @@
 
 .friendsui-container {
   transition: background 0.2s ease-in-out !important;
-  background-color: var(--zehn-color-window-client) !important;
+  background-color: var(--fbskin-color-window-client) !important;
 }
 
 .dwmx.client_chat_frame.friendsui-container {
@@ -40,7 +40,7 @@
 }
 
 body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
-  filter: var(--zehn-filter-focus) !important;
+  filter: var(--fbskin-filter-focus) !important;
 }
 
 .friendlist>* {
@@ -59,15 +59,15 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 
 /* SETTINGS PICKER */
 .FriendPicker_ChosenFriend span {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .FriendPicker_ChosenFriend:hover span {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .FriendPicker_ChosenFriend {
-  background: var(--zehn-color-tag) !important;
+  background: var(--fbskin-color-tag) !important;
   border-radius: 0 !important;
   margin: 0 !important;
   padding: 0 12px !important;
@@ -76,11 +76,11 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 }
 
 .FriendPicker_ChosenFriend:hover {
-  background-color: var(--zehn-color-tag-hover) !important;
+  background-color: var(--fbskin-color-tag-hover) !important;
 }
 
 .FriendPicker_ChosenFriend:active {
-  background-color: var(--zehn-color-tag-active) !important;
+  background-color: var(--fbskin-color-tag-active) !important;
 }
 
 .FriendPicker_ChosenFriend .SVGIcon_X_Line {
@@ -92,11 +92,11 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
   left: 0 !important;
   top: 0 !important;
   bottom: 0 !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 12px !important;
-  -webkit-mask-image: var(--zehn-icon-clear) !important;
+  -webkit-mask-image: var(--fbskin-icon-clear) !important;
 }
 
 .FriendPicker_ChosenFriend .SVGIcon_X_Line * {
@@ -109,19 +109,19 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 
 .FriendPicker_SuggestedFriend {
   padding: 8px 16px !important;
-  background: var(--zehn-color-list-background) !important;
+  background: var(--fbskin-color-list-background) !important;
 }
 
 .FriendPicker_SuggestedFriend:hover {
-  background: var(--zehn-color-list-background-hover) !important;
+  background: var(--fbskin-color-list-background-hover) !important;
 }
 
 .FriendPicker_SuggestedFriend:active {
-  background: var(--zehn-color-list-background-active) !important;
+  background: var(--fbskin-color-list-background-active) !important;
 }
 
 .FriendPicker_Focus .FriendPicker_SuggestedFriend.Focus {
-  background: var(--zehn-color-list-background-active) !important;
+  background: var(--fbskin-color-list-background-active) !important;
 }
 
 ._30XroGinE5bsVSmgAzXIFf {
@@ -192,9 +192,9 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 }
 
 .titleBarContainer:not(.chatHeader) {
-  background: var(--zehn-color-window-acrylic) !important;
+  background: var(--fbskin-color-window-acrylic) !important;
   transition: background 0.2s ease-in-out, backdrop-filter 0.2s ease-in-out !important;
-  backdrop-filter: blur(var(--zehn-blur-radius)) !important;
+  backdrop-filter: blur(var(--fbskin-blur-radius)) !important;
   background-blend-mode: exclusion !important;
 }
 
@@ -203,7 +203,7 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 }
 
 .WindowFocus .titleBarContainer:not(.chatHeader) {
-  background-color: var(--zehn-color-window-acrylic-focus) !important;
+  background-color: var(--fbskin-color-window-acrylic-focus) !important;
 }
 
 .titleBarContainer:not(.chatHeader)::after {
@@ -215,7 +215,7 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
   left: 0 !important;
   right: 0 !important;
   opacity: 0 !important;
-  background-image: var(--zehn-texture-acrylic) !important;
+  background-image: var(--fbskin-texture-acrylic) !important;
   transition: opacity 0.2s ease-in-out !important;
 }
 
@@ -232,7 +232,7 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
   margin-top: 0 !important;
   overflow-y: auto !important; /* SCROLL */
   height: fit-content !important;
-  background-color: var(--zehn-color-window-client) !important;
+  background-color: var(--fbskin-color-window-client) !important;
 }
 
 /* CURRENT USER */
@@ -312,7 +312,7 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 }
 
 .currentUserContainer ._4ZTzGZ5TTgFyfw1DcXLXS, .currentUserContainer .nOdcT-MoOaXGePXLyPe0H {
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 500 !important;
 }
 
@@ -341,11 +341,11 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
   color: transparent !important;
   fill: transparent !important;
   stroke: transparent !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-vr) !important;
+  -webkit-mask-image: var(--fbskin-icon-vr) !important;
   display: none !important;
 }
 
@@ -378,11 +378,11 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
   margin-bottom: 0 !important;
   padding: 0 !important;
   margin: 0 !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-navigation) !important;
+  -webkit-mask-image: var(--fbskin-icon-navigation) !important;
   filter: none !important;
   height: 32px !important;
   width: 32px !important;
@@ -393,19 +393,19 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 }
 
 .currentUserContainer .ContextMenuButton {
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
 }
 
 .currentUserContainer .ContextMenuButton:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .currentUserContainer .ContextMenuButton:focus {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .currentUserContainer .ContextMenuButton:active {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .FriendsListContent .ContextMenuButton, .MemberListColumn .ContextMenuButton, .VoiceChannelParticipants .ContextMenuButton {
@@ -424,7 +424,7 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 }
 
 .online .SVGIcon_DoNotDisturb circle, .online .SVGIcon_DoNotDisturb line {
-  stroke: var(--zehn-color-text-secondary) !important;
+  stroke: var(--fbskin-color-text-secondary) !important;
 }
 
 /* QUICK ACCESS */
@@ -433,14 +433,14 @@ body:not(.WindowFocus) .titleBarContainer .ContextMenuButton {
 }
 
 .quickAccessFriendsMessage {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
   text-transform: uppercase !important;
   border-radius: 0 !important;
   border: unset !important;
   margin: 0 !important;
   padding: 0 !important;
   font-weight: 400 !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
   white-space: nowrap !important;
@@ -456,11 +456,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 
 .quickAccessFriends.emptyQuickAccess .quickAccessFriendsMessageDismiss {
   font-weight: 400 !important;
-  font-size: var(--zehn-size-14) !important;
-  color: var(--zehn-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
   padding: 0 8px !important;
   border-radius: 0 !important;
-  background: rgb(var(--zehn-color-accent)) !important;
+  background: rgb(var(--fbskin-color-accent)) !important;
   text-align: center !important;
   left: 0 !important;
   bottom: 0 !important;
@@ -479,7 +479,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .quickAccessFriends.emptyQuickAccess .quickAccessFriendsMessageDismiss:hover {
-  background: rgb(var(--zehn-color-accent)) !important;
+  background: rgb(var(--fbskin-color-accent)) !important;
   opacity: 1 !important;
 }
 
@@ -519,7 +519,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   height: 32px !important;
   margin: 3px !important;
   line-height: 32px !important;
-  font-size: var(--zehn-size-16) !important;
+  font-size: var(--fbskin-size-16) !important;
 }
 
 .friend.quickAccessFriend {
@@ -562,7 +562,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .playerNameQuickAccessContainer {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
   line-height: 16px !important;
   width: fit-content !important;
   position: absolute !important;
@@ -574,21 +574,21 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .quickAccessFriends .favoriteElement {
-  background: var(--zehn-color-list-background) !important;
+  background: var(--fbskin-color-list-background) !important;
 }
 
 .quickAccessFriends .favoriteElement:hover {
-  background: var(--zehn-color-list-background-hover) !important;
+  background: var(--fbskin-color-list-background-hover) !important;
 }
 
 .quickAccessFriends .favoriteElement:active {
-  background: var(--zehn-color-list-background-active) !important;
+  background: var(--fbskin-color-list-background-active) !important;
 }
 
 .quickAccessFriend .clanName, .friend.quickAccessFriend .playerName {
   width: fit-content !important;
   margin: 0 !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   bottom: 0 !important;
   text-overflow: ellipsis !important;
   -webkit-mask: none !important;
@@ -598,7 +598,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .quickAccessFriends .favoriteElement:hover .friend .playerName {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .favoriteElement:hover .quickAccessFriend .clanName, .favoriteElement:hover .friend.quickAccessFriend .playerName {
@@ -611,7 +611,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 
 .quickAccessFriend .clanName {
   display: none !important;
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 /* QUICK ACCESS SNOOZE */
@@ -629,8 +629,8 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 ._14S4rlGAAqfqW6lMKYB2GM {}
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- {
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
   padding: 0 !important;
   line-height: 32px !important;
@@ -638,7 +638,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._2sIHGS_555xUrHvjOwV0Y2 {
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   padding: 0 16px !important;
 }
 
@@ -646,25 +646,25 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   margin: 0 !important;
   width: 32px !important;
   height: 32px !important;
-  background: var(--zehn-color-button-client-background) !important;
+  background: var(--fbskin-color-button-client-background) !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3voPlg-2HzAUhuCyVhXm_D:hover {
-  background: var(--zehn-color-button-client-background-hover) !important;
+  background: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3voPlg-2HzAUhuCyVhXm_D:active {
-  background: var(--zehn-color-button-client-background-active) !important;
+  background: var(--fbskin-color-button-client-background-active) !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3UDCWUbI0_05r9ATmvC2HD {
   width: 32px !important;
   height: 32px !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-controller-split) !important;
+  -webkit-mask-image: var(--fbskin-icon-controller-split) !important;
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1tN7mH20YhTaXLqtoW2hR- ._3UDCWUbI0_05r9ATmvC2HD * {
@@ -678,8 +678,8 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._3sgj23BemKViTVqwcKSU9G {
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
   padding: 16px !important;
   line-height: 16px !important;
@@ -700,10 +700,10 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 /* REMOTE PLAY TOGETHER INFO GOT IT */
 ._14S4rlGAAqfqW6lMKYB2GM ._1u3O6b4coM67TPrM0e-lN6 ._1m0afeRW-Gr5ZDK4viq3SY {
   margin: 0 !important;
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
-  background: rgb(var(--zehn-color-accent)) !important;
+  background: rgb(var(--fbskin-color-accent)) !important;
   border-radius: 0 !important;
   padding: 0 16px !important;
   position: absolute !important;
@@ -757,42 +757,42 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .activeVoiceControls .connectionStatusLabels, .chatRoomVoiceChannel .connectionStatusLabels {
-  font-size: var(--zehn-size-12) !important;
-  color: var(--zehn-color-text-primary) !important;
+  font-size: var(--fbskin-size-12) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .friendListHeaderContainer .activeVoiceLabels {
   display: inline-flex !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   line-height: 48px !important;
   padding: 0 16px !important;
   display: none !important;
 }
 
 .activeVoiceLabels {
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
   font-weight: 400 !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   padding: 0 !important;
 }
 
 .activeVoiceLabels .activeVoiceHeader {
   letter-spacing: normal !important;
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   display: none !important;
 }
 
 .activeVoiceLabels .activeVoiceName {
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   line-height: inherit !important;
   max-height: 48px !important;
 }
 
 .activeVoiceLabels .activeVoiceName::before {
   content: "\00a0" !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   display: none !important;
 }
 
@@ -803,7 +803,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .VoiceControlPanelButton svg {
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
@@ -815,15 +815,15 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .VoiceControlPanelButton {
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
 }
 
 .VoiceControlPanelButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .VoiceControlPanelButton:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .activeVoiceFlexBox .activeVoiceButtons button {
@@ -842,27 +842,27 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .VoiceControlPanelButton.ToggleMicrophoneButton.Focusable svg {
-  -webkit-mask-image: var(--zehn-icon-mic) !important;
+  -webkit-mask-image: var(--fbskin-icon-mic) !important;
 }
 
 .VoiceControlPanelButton.ToggleMicrophoneButton.disabled.Focusable svg {
-  -webkit-mask-image: var(--zehn-icon-mic-mute) !important;
+  -webkit-mask-image: var(--fbskin-icon-mic-mute) !important;
 }
 
 .VoiceControlPanelButton.ToggleVoiceOutputButton.Focusable svg {
-  -webkit-mask-image: var(--zehn-icon-volume) !important;
+  -webkit-mask-image: var(--fbskin-icon-volume) !important;
 }
 
 .VoiceControlPanelButton.ToggleVoiceOutputButton.disabled.Focusable svg {
-  -webkit-mask-image: var(--zehn-icon-volume-mute) !important;
+  -webkit-mask-image: var(--fbskin-icon-volume-mute) !important;
 }
 
 .VoiceControlPanelButton.chatEndVoiceChat.Focusable svg {
-  -webkit-mask-image: var(--zehn-icon-chat-leave) !important;
+  -webkit-mask-image: var(--fbskin-icon-chat-leave) !important;
 }
 
 .activeVoiceButtons .SVGIcon_Button {
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
@@ -898,17 +898,17 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .socialTabSearchContainer {
-  /* background: var(--zehn-color-window-client) !important; */
+  /* background: var(--fbskin-color-window-client) !important; */
 }
 
 .activeTab {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
   background-color: transparent !important;
 }
 
 @media (prefers-contrast: more) {
   .activeTab {
-    color: var(--zehn-color-text-primary) !important;
+    color: var(--fbskin-color-text-primary) !important;
     background-color: transparent !important;
     border-top: none !important;
     border-bottom: none !important;
@@ -916,16 +916,16 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .TabSearchButton .ColorSelector {
-  stroke: var(--zehn-color-text-primary) !important;
-  fill: var(--zehn-color-text-primary) !important;
+  stroke: var(--fbskin-color-text-primary) !important;
+  fill: var(--fbskin-color-text-primary) !important;
 }
 
 .socialListTab {
   margin-top: 0 !important;
   height: 48px !important;
   font-weight: 400 !important;
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   line-height: 48px !important;
   text-transform: uppercase !important;
   padding: 0 !important;
@@ -935,8 +935,8 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 .socialListTab .tabLabel {
   cursor: pointer !important;
   font-weight: 400 !important;
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   line-height: 48px !important;
   transition: none !important;
   display: none !important;
@@ -974,15 +974,15 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .searchIconButton {
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
 }
 
 .searchIconButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .searchIconButton:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .TabSearchButton .searchIconButton {
@@ -1036,11 +1036,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   height: 48px !important;
   width: 48px !important;
   margin: 0 !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-search) !important;
+  -webkit-mask-image: var(--fbskin-icon-search) !important;
 }
 
 .friendsTabButtonsContainer .TabSearchButton .SVGIcon_MagnifyingGlass * {
@@ -1077,9 +1077,9 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendSearchInput[type="text"] {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
   background-color: transparent !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   padding: 0 16px !important;
   transition: none !important;
   background-image: none !important;
@@ -1093,11 +1093,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   right: 0 !important;
   width: 48px !important;
   pointer-events: none !important;
-  background-color: var(--zehn-color-icon-secondary) !important;
+  background-color: var(--fbskin-color-icon-secondary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 12px !important;
-  -webkit-mask-image: var(--zehn-icon-search) !important;
+  -webkit-mask-image: var(--fbskin-icon-search) !important;
   opacity: 0 !important;
 }
 
@@ -1114,9 +1114,9 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendSearchInput::placeholder {
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
   text-transform: uppercase !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
 }
 
 .friendSearchClear {
@@ -1141,22 +1141,22 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendSearchNoResultsContainer {
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
 }
 
 .friendSearchNoResultsContainer a {
-  color: var(--zehn-color-link) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-link) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
   text-decoration: none !important;
 }
 
 .friendSearchNoResultsContainer a:hover {
-  color: var(--zehn-color-link-hover) !important;
+  color: var(--fbskin-color-link-hover) !important;
 }
 
 .friendSearchNoResultsContainer a:active {
-  color: var(--zehn-color-link-active) !important;
+  color: var(--fbskin-color-link-active) !important;
 }
 
 .friendsTabButtonsContainer > div, .friendsTabButtonsContainer > a {
@@ -1166,7 +1166,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 
 /* FRIENDS ADD */
 .addFriendButton {
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
   padding: 0 !important;
   width: 48px !important;
   height: 48px !important;
@@ -1180,15 +1180,15 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .addFriendButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .addFriendButton:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .friendRequestButton {
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
   padding: 0 !important;
   width: 48px !important;
   height: 48px !important;
@@ -1201,27 +1201,27 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendRequestButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .friendRequestButton:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .friendRequestButton .SVGIcon_FriendRequest, .addFriendButton .SVGIcon_AddFriend {
   margin: 0 !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
 }
 
 .friendRequestButton .SVGIcon_FriendRequest {
-  -webkit-mask-image: var(--zehn-icon-contact) !important;
+  -webkit-mask-image: var(--fbskin-icon-contact) !important;
 }
 
 .addFriendButton .SVGIcon_AddFriend {
-  -webkit-mask-image: var(--zehn-icon-contact-add) !important;
+  -webkit-mask-image: var(--fbskin-icon-contact-add) !important;
 }
 
 .friendRequestButton .SVGIcon_FriendRequest *, .addFriendButton .SVGIcon_AddFriend * {
@@ -1229,11 +1229,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton .SVGIcon_FriendRequest .friendHead, .friendRequestButton .SVGIcon_FriendRequest .friendArm, .friendRequestButton .SVGIcon_FriendRequest .friendBody, .addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody {
-  fill: var(--zehn-color-icon-primary) !important;
+  fill: var(--fbskin-color-icon-primary) !important;
 }
 
 .addFriendButton .SVGIcon_AddFriend .plusCircle {
-  fill: var(--zehn-color-icon-primary) !important;
+  fill: var(--fbskin-color-icon-primary) !important;
 }
 
 .friendRequestButton .requestsNumber {
@@ -1252,9 +1252,9 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   overflow: hidden;
   margin: 0 !important;
   padding: 0 !important;
-  background-color: rgb(var(--zehn-color-accent)) !important;
+  background-color: rgb(var(--fbskin-color-accent)) !important;
   letter-spacing: normal !important;
-  font-size: var(--zehn-size-10) !important;
+  font-size: var(--fbskin-size-10) !important;
   font-weight: 400 !important;
   line-height: 10px !important;
 }
@@ -1281,16 +1281,16 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   border-radius: 0 !important;
   margin: 0 !important;
   border: none !important;
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
   position: relative !important;
 }
 
 .friendInviteButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .friendInviteButton:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .friendInviteButton.bright::after {
@@ -1299,7 +1299,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   left: 4px !important;
   right: 4px !important;
   height: 2px !important;
-  background-color: rgb(var(--zehn-color-accent)) !important;
+  background-color: rgb(var(--fbskin-color-accent)) !important;
   display: block !important;
   position: absolute !important;
 }
@@ -1310,25 +1310,25 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendInviteButton.declineFriendInvite, .friendInviteButton.acceptFriendInvite {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .friendInviteButton .SVGIcon_Check, .declineFriendInvite .SVGIcon_X_Line {
   height: 100% !important;
   width: 100% !important;
   margin: 0 !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
 }
 
 .friendInviteButton .SVGIcon_Check {
-  -webkit-mask-image: var(--zehn-icon-checkmark) !important;
+  -webkit-mask-image: var(--fbskin-icon-checkmark) !important;
 }
 
 .declineFriendInvite .SVGIcon_X_Line {
-  -webkit-mask-image: var(--zehn-icon-cancel) !important;
+  -webkit-mask-image: var(--fbskin-icon-cancel) !important;
 }
 
 .friendInviteButton svg * {
@@ -1365,8 +1365,8 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendInviteBlockContainer .blockCommunicationLabel {
-  font-size: var(--zehn-size-14) !important;
-  color: var(--zehn-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
   font-weight: 400 !important;
   margin: 0 !important;
   line-height: 16px !important;
@@ -1377,8 +1377,8 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendInviteBlockContainer .blockCommunicationLabel.subtitle {
-  font-size: var(--zehn-size-12) !important;
-  color: var(--zehn-color-text-secondary) !important;
+  font-size: var(--fbskin-size-12) !important;
+  color: var(--fbskin-color-text-secondary) !important;
   font-weight: 400 !important;
 }
 
@@ -1393,25 +1393,25 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   right: 0 !important;
   width: 32px !important;
   height: 32px !important;
-  background: var(--zehn-color-button-client-background) !important;
+  background: var(--fbskin-color-button-client-background) !important;
   display: none !important;
 }
 
 .confirmInviteRequestContainer .cancelAddFriends:hover {
-  background: var(--zehn-color-button-client-background-hover) !important;
+  background: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .confirmInviteRequestContainer .cancelAddFriends:active {
-  background: var(--zehn-color-button-client-background-active) !important;
+  background: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .confirmInviteRequestContainer .cancelAddFriends svg {
   transform: none !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-direction-backwards) !important;
+  -webkit-mask-image: var(--fbskin-icon-direction-backwards) !important;
 }
 
 .confirmInviteRequestContainer .cancelAddFriends svg * {
@@ -1438,29 +1438,29 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .confirmInviteRequestContainer .confirmInviteButton {
-  font-size: var(--zehn-size-14) !important;
-  color: var(--zehn-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
   font-weight: 400 !important;
   line-height: 32px !important;
-  background: var(--zehn-color-button-client-background) !important;
+  background: var(--fbskin-color-button-client-background) !important;
   transition: none !important;
   padding: 0 16px !important;
   margin: 0 !important;
 }
 
 .confirmInviteRequestContainer .confirmInviteButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
-  color: var(--zehn-color-text-primary) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .confirmInviteRequestContainer .confirmInviteButton:active {
-  background-color: var(--zehn-color-button-clientbackground-active) !important;
-  color: var(--zehn-color-text-primary) !important;
+  background-color: var(--fbskin-color-button-clientbackground-active) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .confirmInviteRequestContainer .confirmInviteButton.dim, .confirmInviteRequestContainer .confirmInviteButton.dim:hover, .confirmInviteRequestContainer .confirmInviteButton.dim:active {
-  background-color: var(--zehn-color-button-client-background-disabled) !important;
-  color: var(--zehn-color-text-tertiary) !important;
+  background-color: var(--fbskin-color-button-client-background-disabled) !important;
+  color: var(--fbskin-color-text-tertiary) !important;
 }
 
 /* UNREAD MESSAGE */
@@ -1469,13 +1469,13 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .ChatRoomListGroupItem .FriendMessageCount, .unreadFriend .FriendMessageCount {
-  background: rgb(var(--zehn-color-accent)) !important;
+  background: rgb(var(--fbskin-color-accent)) !important;
   padding: 0 !important;
   margin-top: 0 !important;
   margin-right: 0 !important;
   border-radius: 50% !important;
   color: transparent !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
   max-width: 6px !important;
   max-height: 6px !important;
@@ -1497,15 +1497,15 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   line-height: 24px !important;
   height: 24px !important;
   width: 24px !important;
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
 }
 
 .unreadMessageViolator {
-  background: rgb(var(--zehn-color-accent)) !important;
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  background: rgb(var(--fbskin-color-accent)) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
   border-bottom-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
@@ -1523,22 +1523,22 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 
 /* FRIENDS LIST */
 .FriendsListContent .friendlistListContainer .friendGroup .groupHeaderContainer, .FriendsListContent .friendlistListContainer .friendGroup.gameGroup .groupName {
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup .groupHeaderContainer:hover, .FriendsListContent .friendlistListContainer .friendGroup.gameGroup .groupName:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup .groupHeaderContainer:active, .FriendsListContent .friendlistListContainer .friendGroup.gameGroup .groupName:active {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .friendGroup .groupName {
   margin-top: 0 !important;
   line-height: 32px !important;
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   text-transform: uppercase !important;
   border-top: unset !important;
   transition: none !important;
@@ -1546,7 +1546,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendGroup .groupName.CompactFriendsList .friendGroup.taggedGroup .groupName, .CompactFriendsList .friendGroup.gameGroup .groupName {
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   padding-bottom: 0 !important;
   line-height: 32px !important;
 }
@@ -1572,9 +1572,9 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
   text-transform: uppercase !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 400 !important;
 }
 
@@ -1617,7 +1617,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .groupName .groupCount {
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
 }
 
 .groupName .groupCount.collapsed {
@@ -1629,11 +1629,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .friendGroup.offlineFriends .groupName .groupCount, .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
 }
 
 .friendGroup .groupName .groupCount {
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   margin-left: 4px !important;
   transform: none !important;
 }
@@ -1644,15 +1644,15 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 
 .friendStatusHover {
   transition: none !important;
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
 }
 
 .friendStatusHover:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .friendStatusHover:active, .friendStatusHover.Friend_ContextMenuActive {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .friendGroup .friend, .friendGroup .SteamPlayerGroupFooter {
@@ -1677,30 +1677,30 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   height: 32px !important;
   margin: 0 !important;
   transition: none !important;
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
 }
 
 .groupHeaderContainer .SortByRecent:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .groupHeaderContainer .SortByRecent:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .groupHeaderContainer .SortByRecent svg {
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-switch-vertical) !important;
+  -webkit-mask-image: var(--fbskin-icon-switch-vertical) !important;
   width: 100% !important;
   height: 100% !important;
   fill: transparent !important;
 }
 
 .groupHeaderContainer .SortByRecent.Recent svg {
-  -webkit-mask-image: var(--zehn-icon-clock) !important;
+  -webkit-mask-image: var(--fbskin-icon-clock) !important;
 }
 
 .groupHeaderContainer .SortByRecent svg * {
@@ -1808,9 +1808,9 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   display: table-cell !important;
   line-height: 32px !important;
   font-weight: 400 !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   text-align: center !important;
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
   margin-top: 0 !important;
 }
 
@@ -1820,9 +1820,9 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   vertical-align: middle !important;
   height: initial !important;
   margin-left: 16px !important;
-  font-size: var(--zehn-size-12) !important;
+  font-size: var(--fbskin-size-12) !important;
   text-align: left !important;
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
   -webkit-mask: none !important;
   width: calc(100% - 72px) !important;
   white-space: nowrap !important;
@@ -1855,19 +1855,19 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 .friendsListSectionTitle.chatSectionTitle {
   height: 32px !important;
   border: unset !important;
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
 }
 
 .friendsListSectionTitle {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .FriendsListChatSection .friendsListSectionTitle:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .FriendsListChatSection .friendsListSectionTitle:active {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .ToggleGroupChatList {
@@ -1894,11 +1894,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   margin-top: 0 !important;
   margin-left: 16px !important;
   font-weight: 400 !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
 }
 
 .createChatRoomButton {
-  color: var(--zehn-color-icon-primary) !important;
+  color: var(--fbskin-color-icon-primary) !important;
   margin-top: 0 !important;
   padding: 0 !important;
   width: 32px !important;
@@ -1913,15 +1913,15 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .createChatRoomButton, .createChatRoomButton:hover, .createChatRoomButton:active {
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
 }
 
 .createChatRoomButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .createChatRoomButton:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .friendsListSectionTitle .SVGIcon_NewChatGroup * {
@@ -1932,11 +1932,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   margin: 0 !important;
   width: 32px !important;
   height: 32px !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-chat-start) !important;
+  -webkit-mask-image: var(--fbskin-icon-chat-start) !important;
 }
 
 .voiceRoomDragBar {
@@ -1982,7 +1982,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .ChatRoomListGroupItem_header {
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
   margin: 0 !important;
   padding: 8px 16px !important;
 }
@@ -1992,11 +1992,11 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .ChatRoomListGroupItem_header:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .ChatRoomListGroupItem_header:active {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .ChatRoomListGroupItem_header:hover:has(.openGroupButton:hover), .ChatRoomListGroupItem_header:active:has(.openGroupButton:hover) {
@@ -2012,14 +2012,14 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .ChatRoomListGroupItem:not(.NonGroupHovered) .ChatRoomListGroupItem_header:hover .chatRoomName {
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 500 !important;
 }
 
 .ChatRoomListGroupItem .ChatRoomListGroupItem_header .chatRoomName {
-  color: var(--zehn-color-text-primary) !important;
-  font-size: var(--zehn-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 500 !important;
 }
 
@@ -2038,22 +2038,22 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   width: 32px !important;
   height: 32px !important;
   line-height: 32px !important;
-  font-size: var(--zehn-size-16) !important;
+  font-size: var(--fbskin-size-16) !important;
 }
 
 .ChatRoomMultiFriendAvatar {
   margin: 0 !important;
   background: transparent !important;
-  border-radius: var(--zehn-mask-avatar-roundness) !important;
-  background: rgba(var(--zehn-color-accent), 0.5) !important;
+  border-radius: var(--fbskin-mask-avatar-roundness) !important;
+  background: rgba(var(--fbskin-color-accent), 0.5) !important;
   border: none !important;
 }
 
 .ChatRoomGroupAvatar {
   margin: 0 !important;
   background: transparent !important;
-  border-radius: var(--zehn-mask-avatar-roundness) !important;
-  background: rgba(var(--zehn-color-accent), 0.5) !important;
+  border-radius: var(--fbskin-mask-avatar-roundness) !important;
+  background: rgba(var(--fbskin-color-accent), 0.5) !important;
   border: none !important;
   line-height: 100% !important;
 }
@@ -2062,21 +2062,21 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   width: 24px !important;
   height: 24px !important;
   line-height: 24px !important;
-  font-size: var(--zehn-size-12) !important;
+  font-size: var(--fbskin-size-12) !important;
 }
 
 .ChatRoomGroupAvatar.Small {
   width: 32px !important;
   height: 32px !important;
   line-height: 32px !important;
-  font-size: var(--zehn-size-16) !important;
+  font-size: var(--fbskin-size-16) !important;
 }
 
 .ChatRoomGroupAvatar.Micro {
   width: 32px !important;
   height: 32px !important;
   line-height: 32px !important;
-  font-size: var(--zehn-size-16) !important;
+  font-size: var(--fbskin-size-16) !important;
 }
 
 .ChatRoomListGroupItem .ChatRoomGroupAvatar {
@@ -2085,7 +2085,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   margin-left: 0 !important;
   margin-right: 0 !important;
   line-height: 32px !important;
-  font-size: var(--zehn-size-16) !important;
+  font-size: var(--fbskin-size-16) !important;
 }
 
 .groupNameStatusContainer {
@@ -2106,23 +2106,23 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   right: 0 !important;
   top: 0 !important;
   transition: none !important;
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
 }
 
 .ChatRoomListGroupItem .openGroupButton:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .ChatRoomListGroupItem .openGroupButton:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .ChatRoomListGroupItem .openGroupButton svg {
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-chevron-down) !important;
+  -webkit-mask-image: var(--fbskin-icon-chevron-down) !important;
   width: 16px !important;
   height: 16px !important;
   /* padding: 16px !important; */
@@ -2156,7 +2156,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .ChatRoomListGroupItem.ShowAllChannels .openGroupButton svg {
-  -webkit-mask-image: var(--zehn-icon-chevron-up) !important;
+  -webkit-mask-image: var(--fbskin-icon-chevron-up) !important;
 }
 
 .ChatRoomListGroupItem .openGroupButton svg * {
@@ -2173,9 +2173,9 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 .ChatRoomListGroupItem.HasLinkedBroadcast .steamTVSubtitle {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
   margin-left: 32px !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   font-weight: 500 !important;
   margin-left: 12px !important;
   left: unset !important;
@@ -2185,12 +2185,12 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 
 .ChatRoomListGroupItem.HasLinkedBroadcast .steamTVSubtitle::before {
   content: "(STEAM TV" !important;
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .ChatRoomListGroupItem.HasLinkedBroadcast .steamTVSubtitle::after {
   content: ")" !important;
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .ChatRoomListGroupItem.HasLinkedBroadcast .SVGIcon_SteamTV {
@@ -2240,7 +2240,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
   height: 24px !important;
   width: 24px !important;
   line-height: 24px !important;
-  font-size: var(--zehn-size-12) !important;
+  font-size: var(--fbskin-size-12) !important;
 }
 
 .compactView .ChatRoomListGroupItem .ChatRoomMultiFriendAvatar.Small {
@@ -2280,7 +2280,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 /* CHAT ROOM DROP DOWN */
 .ChatRoomListGroupItemChatRooms {
   margin-left: 0 !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
 }
 
 .ChatRoomListGroupItem .chatRoomVoiceChannel {
@@ -2295,7 +2295,7 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 .ChatRoomListGroupItemChatRooms .chatRoomVoiceChannel.ActiveVoiceChannel {
   background-color: transparent !important;
   border-radius: 0 !important;
-  background: var(--zehn-color-window-panel) !important;
+  background: var(--fbskin-color-window-panel) !important;
 }
 
 .chatRoomVoiceChannelNameContainer {
@@ -2304,30 +2304,30 @@ body.in_global_drag .quickAccessFriends.emptyQuickAccess {
 }
 
 div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer {
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
 }
 
 div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomVoiceChannelNameContainer .VoiceControlPanelButton {
   border-radius: 0 !important;
   width: 32px !important;
   height: 32px !important;
-  background: var(--zehn-color-button-client-background) !important;
+  background: var(--fbskin-color-button-client-background) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomVoiceChannelNameContainer .VoiceControlPanelButton:hover {
-  background: var(--zehn-color-button-client-background-hover) !important;
+  background: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomVoiceChannelNameContainer .VoiceControlPanelButton:active {
-  background: var(--zehn-color-button-client-background-active) !important;
+  background: var(--fbskin-color-button-client-background-active) !important;
 }
 
 .VoiceControlPanelButton.chatPinRoom .SVGIcon_Button {
@@ -2337,11 +2337,11 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
 .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomVoiceChannelNameContainer .VoiceControlPanelButton svg {
   width: 32px !important;
   height: 32px !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-navigation) !important;
+  -webkit-mask-image: var(--fbskin-icon-navigation) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomVoiceChannelNameContainer .VoiceControlPanelButton svg * {
@@ -2390,8 +2390,8 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
 }
 
 .ChatRoomListGroupItem .chatRoomVoiceChannelName {
-  font-size: var(--zehn-size-14) !important;
-  color: var(--zehn-color-text-primary) !important;
+  font-size: var(--fbskin-size-14) !important;
+  color: var(--fbskin-color-text-primary) !important;
 }
 
 .chatRoomVoiceChannelName, .chatRoomTextChannel, .chatRoomDirectMessageEntry {
@@ -2415,8 +2415,8 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
 }
 
 .emptyChannelNotice {
-  color: var(--zehn-color-text-secondary) !important;
-  font-size: var(--zehn-size-10) !important;
+  color: var(--fbskin-color-text-secondary) !important;
+  font-size: var(--fbskin-size-10) !important;
   margin-left: 16px !important;
   font-weight: 400 !important;
 }
@@ -2489,26 +2489,26 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
   transition: none !important;
   right: 32px !important;
   bottom: 0 !important;
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel:active {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .ScratchPadConnect {
   display: none !important;
   width: 32px !important;
   height: 32px !important;
-  background: var(--zehn-color-icon-primary) !important;
+  background: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-notes) !important;
+  -webkit-mask-image: var(--fbskin-icon-notes) !important;
   bottom: 0 !important;
   left: 0 !important;
   top: unset !important;
@@ -2524,11 +2524,11 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
   width: 32px !important;
   height: 32px !important;
   margin: 0 !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-chat-bubbles) !important;
+  -webkit-mask-image: var(--fbskin-icon-chat-bubbles) !important;
   color: transparent !important;
 }
 
@@ -2541,15 +2541,15 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
   color: transparent !important;
   min-width: 32px !important;
   min-height: 32px !important;
-  background-color: var(--zehn-color-button-client-background) !important;
+  background-color: var(--fbskin-color-button-client-background) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat:hover {
-  background-color: var(--zehn-color-button-client-background-hover) !important;
+  background-color: var(--fbskin-color-button-client-background-hover) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat:active {
-  background-color: var(--zehn-color-button-client-background-active) !important;
+  background-color: var(--fbskin-color-button-client-background-active) !important;
 }
 
 /* VOICE ICONS */
@@ -2562,11 +2562,11 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
 .chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat svg {
   width: 32px !important;
   height: 32px !important;
-  background-color: var(--zehn-color-icon-primary) !important;
+  background-color: var(--fbskin-color-icon-primary) !important;
   mask-repeat: no-repeat !important;
   mask-position: center !important;
   mask-size: 16px !important;
-  -webkit-mask-image: var(--zehn-icon-chat-leave) !important;
+  -webkit-mask-image: var(--fbskin-icon-chat-leave) !important;
 }
 
 .VoiceIconCtn:hover SVG, .VoiceIconCtn:active SVG {
@@ -2587,15 +2587,15 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
 }
 
 .VoiceChannelParticipants.CompactFriendsList {
-  background-color: var(--zehn-color-list-background) !important;
+  background-color: var(--fbskin-color-list-background) !important;
 }
 
 .VoiceChannelParticipants.CompactFriendsList:hover {
-  background-color: var(--zehn-color-list-background-hover) !important;
+  background-color: var(--fbskin-color-list-background-hover) !important;
 }
 
 .VoiceChannelParticipants.CompactFriendsList:active {
-  background-color: var(--zehn-color-list-background-active) !important;
+  background-color: var(--fbskin-color-list-background-active) !important;
 }
 
 .VoiceChannelParticipants .friend {
@@ -2604,7 +2604,7 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
 
 /* FOOTER */
 .friendListFooter {
-  background-color: var(--zehn-color-window-client) !important;
+  background-color: var(--fbskin-color-window-client) !important;
   flex-grow: 1 !important;
   min-height: 0 !important;
 }
@@ -2620,44 +2620,44 @@ div:not(.ActiveVoiceChannel) > .chatRoomVoiceChannelNameContainer:active {
 }
 
 ._3t-tVOpu2n074cjZsygYfm ._2MByvWz7Ec6CRwKDWFmHrS {
-  color: var(--zehn-color-text-primary) !important;
+  color: var(--fbskin-color-text-primary) !important;
   font-weight: 400 !important;
-  font-size: var(--zehn-size-14) !important;
+  font-size: var(--fbskin-size-14) !important;
   line-height: 24px !important;
   margin: 16px 0 !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .rORRrCcMO9z86bopxDvrH {
-  color: var(--zehn-color-text-secondary) !important;
+  color: var(--fbskin-color-text-secondary) !important;
   font-weight: 400 !important;
-  font-size: var(--zehn-size-12) !important;
+  font-size: var(--fbskin-size-12) !important;
   line-height: 16px !important;
   margin: 0 0 16px 0 !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY {
   background: transparent !important;
-  background-color: var(--zehn-color-button-dialog-background) !important;
-  color: var(--zehn-color-text-primary) !important;
+  background-color: var(--fbskin-color-button-dialog-background) !important;
+  color: var(--fbskin-color-text-primary) !important;
   border-radius: 0 !important;
   margin: 0 !important;
   height: 32px !important;
   border-radius: 0 !important;
   width: 100% !important;
-  outline: 2px solid var(--zehn-color-button-dialog-border) !important;
+  outline: 2px solid var(--fbskin-color-button-dialog-border) !important;
   outline-offset: -2px !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY:hover {
-  background-color: var(--zehn-color-button-dialog-background-hover) !important;
-  color: var(--zehn-color-text-primary) !important;
-  outline: 2px solid var(--zehn-color-button-dialog-border-hover) !important;
+  background-color: var(--fbskin-color-button-dialog-background-hover) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  outline: 2px solid var(--fbskin-color-button-dialog-border-hover) !important;
 }
 
 ._3t-tVOpu2n074cjZsygYfm .hL2FPh5NpOjzuylSWv4GY:active {
-  background-color: var(--zehn-color-button-dialog-background-active) !important;
-  color: var(--zehn-color-text-primary) !important;
-  outline: 2px solid var(--zehn-color-button-dialog-border-active) !important;
+  background-color: var(--fbskin-color-button-dialog-background-active) !important;
+  color: var(--fbskin-color-text-primary) !important;
+  outline: 2px solid var(--fbskin-color-button-dialog-border-active) !important;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */

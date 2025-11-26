@@ -1,13 +1,13 @@
-import Zehn from './../js/zehn.js';
+import FBSkin from './../js/fbskin.js';
 import Options from './../js/options.js';
 
-Zehn.addUserAgent();
+FBSkin.addUserAgent();
 
 Options.setOptions();
 
 function addButtonUser() {
   var btn = document.createElement('button');
-  btn.classList.add('ZehnButton');
+  btn.classList.add('FBSkinButton');
   btn.id = 'toggleUser';
   btn.type = 'button';
   btn.value = 'open';
@@ -45,20 +45,20 @@ function addButtonUser() {
   document.getElementById('toggleUser').append(icon);
 }
 
-Zehn.createElement('.friendListHeaderContainer .chatTitleBar', '.ZehnButton', addButtonUser);
+FBSkin.createElement('.friendListHeaderContainer .chatTitleBar', '.FBSkinButton', addButtonUser);
 
-Zehn.movePrepend('.doGxCBJrGimabHm365bOV', '.chatRoomOptions', [
+FBSkin.movePrepend('.doGxCBJrGimabHm365bOV', '.chatRoomOptions', [
   '.doGxCBJrGimabHm365bOV', // YULE LOG
 ]);
-// Zehn.movePrepend('.BroadcastChatExpander', '.chatRoomOptions', [
+// FBSkin.movePrepend('.BroadcastChatExpander', '.chatRoomOptions', [
 //   '.BroadcastChatExpander ' // CHAT EXPANDER
 // ]);
-Zehn.moveAppend('.ChatRoomNotificationSettingsDialog > .DialogContent_InnerWidth > form > .DialogHeader', '.ChatRoomNotificationSettingsDialog > .DialogContent_InnerWidth > form > .DialogHeader', [
+FBSkin.moveAppend('.ChatRoomNotificationSettingsDialog > .DialogContent_InnerWidth > form > .DialogHeader', '.ChatRoomNotificationSettingsDialog > .DialogContent_InnerWidth > form > .DialogHeader', [
   '.ChatRoomNotificationSettingsDialog > .DialogContent_InnerWidth > form > .DialogLabel._DialogLayout' // FORGOT WHAT THIS WAS
 ]);
-// Zehn.movePrepend('.currentUserContainer', '.chatTitleBar .title-area-children', [
+// FBSkin.movePrepend('.currentUserContainer', '.chatTitleBar .title-area-children', [
 //   '.currentUserContainer' // CURRENT USER
 // ]);
-// Zehn.moveAppend('.tabSearchTransitionGroup', '.socialTabContainer', [
+// FBSkin.moveAppend('.tabSearchTransitionGroup', '.socialTabContainer', [
 //   '.tabSearchTransitionGroup', // FRIENDS SEARCH
 // ]);

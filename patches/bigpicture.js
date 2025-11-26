@@ -1,6 +1,6 @@
-import Zehn from './../js/zehn.js';
+import FBSkin from './../js/fbskin.js';
 import Options from './../js/options.js';
 
-Zehn.addUserAgent();
+FBSkin.addUserAgent();
 
 Options.setOptions();

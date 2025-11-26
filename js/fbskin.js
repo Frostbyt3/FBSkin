@@ -1,4 +1,4 @@
-const Zehn = {
+const FBSkin = {
   waitForElement(selector) {
     return new Promise(resolve => {
       if (document.querySelector(selector)) {
@@ -15,7 +15,7 @@ const Zehn = {
   },
 
   waitAndObserve(wait, callback) {
-    Zehn.waitForElement(wait).then((element) => {
+    FBSkin.waitForElement(wait).then((element) => {
       var observer = new MutationObserver(function(mutations, observer) {
         callback();
       });
@@ -54,19 +54,19 @@ const Zehn = {
   },
 
   moveAppend(wait, target, classes) {
-    Zehn.waitAndObserve(wait, () => Zehn.appendElements(target, classes));
+    FBSkin.waitAndObserve(wait, () => FBSkin.appendElements(target, classes));
   },
 
   movePrepend(wait, target, classes) {
-    Zehn.waitAndObserve(wait, () => Zehn.prependElements(target, classes));
+    FBSkin.waitAndObserve(wait, () => FBSkin.prependElements(target, classes));
   },
 
   moveBefore(wait, target, classes) {
-    Zehn.waitAndObserve(wait, () => Zehn.beforeElements(target, classes));
+    FBSkin.waitAndObserve(wait, () => FBSkin.beforeElements(target, classes));
   },
 
   removeOld(wait, target, classes) {
-    Zehn.waitAndObserve(wait, () => {
+    FBSkin.waitAndObserve(wait, () => {
       classes.forEach((selector) => {
         var removable = document.querySelectorAll(`${target} ${selector}`);
         if (removable != null) {
@@ -87,7 +87,7 @@ const Zehn = {
   },
 
   createElement(target, button, callback) {
-    Zehn.waitAndObserve(target, () => {
+    FBSkin.waitAndObserve(target, () => {
       if (document.querySelector(`${target}`) != null) {
         if (document.querySelector(`${target} ${button}`) == null) {
             callback(target);
@@ -97,4 +97,4 @@ const Zehn = {
   }
 };
 
-export default Zehn;
+export default FBSkin;
